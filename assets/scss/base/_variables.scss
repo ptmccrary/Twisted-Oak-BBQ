@@ -51,12 +51,15 @@
   /* Colors
   ================================== */
   // Primary Colors
+  --color-red: #8b0000;
+  --color-orange: #ff8e47;
+  --color-green: #597132;
   // Secondary Colors
   // Web Colors
   --color-white: #fff;
-  --color-off-white: #fffdee;
+  --color-off-white: #eae2d6;
   --color-black: #000;
-  --color-off-black: ##181818;
+  --color-off-black: #2e2e2e;
 
   --color-gray-dd: #333;
   --color-gray-d: #666;
@@ -67,6 +70,7 @@
   // Theme Colors
   --color-bg: var(--color-off-white);
   --color-text: var(--color-off-black);
+  --color-accent: var(--color-red);
 
   /* Motion
   ================================== */

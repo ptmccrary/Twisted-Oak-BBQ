@@ -26,21 +26,15 @@ Dolor ad enim magna tempor incididunt. Dolore non in minim sunt velit. Labore pa
 
 ---
 
-## Definition
-
-First Term
-: This is the definition of the first term.
-
-Second Term
-: This is one definition of the second term.
-: This is another definition of the second term.
-
----
-
 ## Ordered List
 
 1. first
+    1. Sub 1
+        1. Sub Sub
+    2. Sub 2
 2. second
+    1. Sub 1
+    2. Sub 2
 3. third
 
 ---
@@ -48,7 +42,11 @@ Second Term
 ## Unordered List
 
 - first
+  - Sub
+  - Sub
 - second
+  - Sub
+    - sub
 - third
 
 ---

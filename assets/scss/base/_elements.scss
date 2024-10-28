@@ -29,6 +29,7 @@ h1 {
   font-size: var(--font-size-4);
   font-weight: 800;
   line-height: 1.1;
+  margin: 0;
 
   @media (min-width: $bp-desktop-sm) {
     line-height: 1.05;
@@ -58,6 +59,48 @@ h4 {
 h5 {
   font-size: var(--font-size-0);
   line-height: 1.35;
+}
+
+ol {
+  ol {
+    list-style: lower-alpha;
+    ol {
+      list-style: lower-roman;
+    }
+  }
+}
+
+li {
+  &::marker {
+    color: var(--color-accent);
+  }
+}
+
+blockquote {
+  border-inline-start: 10px solid var(--color-accent);
+  margin-inline: 0;
+  padding: 1.5em 1em;
+  quotes: "\201C" "\201D" "\2018" "\2019";
+
+  &::before {
+    color: var(--color-accent);
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-inline-end: 0.25em;
+    vertical-align: -0.4em;
+  }
+
+  p {
+    display: inline;
+  }
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: var(--color-text);
+  width: 100%;
 }
 
 ::selection,
