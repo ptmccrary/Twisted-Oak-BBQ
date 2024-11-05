@@ -61,6 +61,14 @@ h5 {
   line-height: 1.35;
 }
 
+a {
+  text-decoration-thickness: 0.2ex;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
 ol {
   ol {
     list-style: lower-alpha;

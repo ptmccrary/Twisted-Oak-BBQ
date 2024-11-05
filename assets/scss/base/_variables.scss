@@ -37,6 +37,8 @@
   --space-base: 1.25rem;
   --space-lg: 2rem;
   --space-xl: 3rem;
+  --space-2xl: 4rem;
+  --space-3xl: 6rem;
 
   --space-cluster: var(--space-base);
   --space-gap: var(--space-base);
@@ -45,16 +47,21 @@
 
   /* Measurements
   ================================== */
-  --site-header-height: 50px;
+  --site-header-height: var(--space-2xl);
   --site-margin: var(--space-sm);
 
   /* Colors
   ================================== */
   // Primary Colors
-  --color-red: #8b0000;
-  --color-orange: #ff8e47;
-  --color-green: #597132;
+  --color-red: #b80000;
+  --color-red-hover: #7a0000;
+  --color-orange: #ff680a;
+  --color-orange-hover: #cc4e00;
+
   // Secondary Colors
+  --color-green: #445525;
+  --color-green-hover: #2e3919;
+
   // Web Colors
   --color-white: #fff;
   --color-off-white: #eae2d6;
@@ -68,9 +75,9 @@
   --color-gray-ll: #f1f1ef;
 
   // Theme Colors
-  --color-bg: var(--color-off-white);
-  --color-text: var(--color-off-black);
-  --color-accent: var(--color-red);
+  --color-bg: var(--color-off-black);
+  --color-text: var(--color-off-white);
+  --color-accent: var(--color-orange);
 
   /* Motion
   ================================== */

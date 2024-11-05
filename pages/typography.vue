@@ -24,8 +24,8 @@
 
 <style lang="scss" scoped>
 .page__header {
-  background-color: var(--color-gray-ll);
-  padding: var(--space-xl) var(--site-margin);
+  background-color: var(--color-gray-dd);
+  padding: var(--space-3xl) var(--site-margin);
 }
 
 .page-title {
@@ -46,7 +46,7 @@
 }
 
 nav {
-  background-color: var(--color-accent);
+  background-color: var(--color-gray-dd);
   color: var(--color-off-white);
   inset-block-start: 30px;
   padding: var(--space-base);
